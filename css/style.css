@@ -286,6 +286,44 @@ footer.rodape a {
   color: var(--sol);
 }
 
+.imersao {
+  border-top: 4px solid var(--sol);
+  border-bottom: 4px solid var(--sol);
+}
+
+.selo {
+  display: inline-block;
+  margin: 0 0 0.75rem;
+  padding: 0.2rem 0.8rem;
+  color: #000;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: var(--sol);
+  border-radius: 999px;
+}
+
+.chamada {
+  color: var(--sol);
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.lema {
+  margin: 1.5rem 0;
+  padding-left: 1.25rem;
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-style: italic;
+  border-left: 4px solid var(--sol);
+}
+
+.nota {
+  color: #a8a8a8;
+}
+
 @media (max-width: 600px) {
   .btn.sec {
     margin: 0.75rem 0 0;

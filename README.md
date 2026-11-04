@@ -17,7 +17,7 @@ Lideranças:
 - Presidente: Pr. Bráulio Medeiros, Pastor Presidente da IADVC
 - Diretor: Pb. Daniel Aguiar
 
-Contatos oficiais: esmiv.oficial@gmail.com, Instagram @esmiv.oficial.
+Contatos oficiais: esmiv.oficial@gmail.com, Instagram @esmiv_oficial.
 
 Site antigo: https://esmiv6.webnode.page/
 
