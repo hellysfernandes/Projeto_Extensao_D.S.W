@@ -7,6 +7,7 @@ Projeto de extensão da disciplina Desenvolvimento de Software para Web (2026.2)
 - Kauã Tavares da Silva (583039)
 - Hellys Fernandes Barbosa (605863)
 - Willyam de Sousa Almeida (580930)
+- Gabriel Holanda Cunha(604896)
 
 ## 1. Público beneficiado
 
