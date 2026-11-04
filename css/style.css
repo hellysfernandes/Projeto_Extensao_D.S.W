@@ -1,10 +1,12 @@
 :root {
-  --ink: #10263f;
-  --verde: #2f6b4f;
+  --ink: #000000;
+  --verde: #e8b931;
   --sol: #e8b931;
-  --papel: #fafaf7;
-  --texto: #1c2430;
-  --suave: #e6ebe8;
+  --papel: #0a0a0a;
+  --texto: #e8e8e8;
+  --suave: #141414;
+  --card: #161616;
+  --borda: #2a2a2a;
   --serif: Georgia, "Times New Roman", serif;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
@@ -45,6 +47,7 @@ a {
   left: 1rem;
   z-index: 10;
   padding: 0.5rem 1rem;
+  color: #000;
   background: #fff;
 }
 
@@ -63,7 +66,7 @@ h2,
 h3 {
   font-family: var(--serif);
   line-height: 1.2;
-  color: var(--ink);
+  color: #fff;
 }
 
 h1 {
@@ -81,8 +84,9 @@ p {
 }
 
 header.topo {
-  background: var(--ink);
+  background: #000;
   color: #fff;
+  border-bottom: 1px solid var(--borda);
 }
 
 .topo .wrap {
@@ -91,7 +95,13 @@ header.topo {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 1rem 1.25rem;
+  padding: 0.6rem 1.25rem;
+}
+
+.marca img {
+  display: block;
+  width: auto;
+  height: 76px;
 }
 
 .marca {
@@ -122,7 +132,8 @@ nav a {
 
 nav a:hover,
 nav a[aria-current="page"] {
-  background: var(--verde);
+  color: #000;
+  background: var(--sol);
 }
 
 .hero {
@@ -139,13 +150,13 @@ nav a[aria-current="page"] {
 
 .hero p {
   font-size: 1.2rem;
-  color: #dbe4ee;
+  color: #d0d0d0;
 }
 
 .btn {
   display: inline-block;
   padding: 0.8rem 1.4rem;
-  color: var(--ink);
+  color: #000;
   font-weight: 700;
   text-decoration: none;
   background: var(--sol);
@@ -155,6 +166,7 @@ nav a[aria-current="page"] {
 
 .btn:hover {
   background: #fff;
+  color: #000;
   border-color: #fff;
 }
 
@@ -166,7 +178,7 @@ nav a[aria-current="page"] {
 }
 
 .btn.sec:hover {
-  color: var(--ink);
+  color: #000;
   background: #fff;
 }
 
@@ -179,13 +191,13 @@ nav a[aria-current="page"] {
 
 .numeros div {
   padding: 0.5rem 1rem;
-  background: #fff;
+  background: var(--card);
   border-left: 6px solid var(--verde);
 }
 
 .numeros strong {
   display: block;
-  color: var(--ink);
+  color: var(--sol);
   font-family: var(--serif);
   font-size: 2rem;
 }
@@ -204,7 +216,7 @@ nav a[aria-current="page"] {
 
 .depoimento footer {
   font-size: 0.95rem;
-  color: #4a5560;
+  color: #a8a8a8;
 }
 
 .faixa {
@@ -218,7 +230,7 @@ dl.dados {
 }
 
 dl.dados dt {
-  color: var(--ink);
+  color: var(--sol);
   font-weight: 700;
 }
 
@@ -228,9 +240,9 @@ dl.dados dd {
 
 .aviso {
   margin: 1.5rem 0;
-  padding: 1rem 1.25rem;
-  background: #fff;
-  border: 2px dashed var(--verde);
+  padding: 0.6rem 1.25rem;
+  background: var(--card);
+  border: 2px dashed var(--sol);
 }
 
 form {
@@ -240,7 +252,7 @@ form {
 }
 
 label {
-  color: var(--ink);
+  color: #fff;
   font-weight: 700;
 }
 
@@ -251,22 +263,23 @@ textarea {
   padding: 0.7rem;
   font: inherit;
   color: inherit;
-  background: #fff;
-  border: 2px solid #9aa7a0;
+  background: #111;
+  border: 2px solid #444;
   border-radius: 4px;
 }
 
 input:focus,
 select:focus,
 textarea:focus {
-  border-color: var(--verde);
+  border-color: var(--sol);
 }
 
 footer.rodape {
   margin-top: 2rem;
   padding: 2rem 0;
-  color: #dbe4ee;
-  background: var(--ink);
+  color: #cfcfcf;
+  background: #000;
+  border-top: 1px solid var(--borda);
 }
 
 footer.rodape a {
