@@ -72,9 +72,3 @@ css/style.css
 docs/
 README.md
 ```
-
-## 7. Como rodar
-
-Abrir o arquivo index.html no navegador. Não precisa instalar nada.
-
-...
